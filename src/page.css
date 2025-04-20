@@ -1,0 +1,98 @@
+.sidebar{
+    background-color: black;
+    width: 240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+}
+.sidebar-nav{
+    margin-top: 20px;
+    background-color: #1b1a1a;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+.logo{
+    width: 35px;
+}
+.name{
+    text-decoration: none;
+    color: rgb(208, 191, 191);
+    font-size: 16px;
+    font-weight: bold;
+}
+.sidebar-nav ul li{
+    padding: 10px 10px;
+}
+
+.new-section {
+    text-decoration: none;
+    color: rgb(223, 203, 203);
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #433d3d;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.second-section{
+    text-decoration: none;
+    color: rgb(223, 203, 203);
+    font-size: 16px;
+    font-weight: 800px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.options{
+    padding: 6px;
+}
+.options :hover{
+    color: rgb(242, 235, 235);
+    font-weight: 900px;
+    background-color: #817676;
+    border-radius: 20px;
+    padding: 1px 1px;
+    margin-bottom: 1px;
+}
+.storage{
+    text-decoration: none;
+    color: rgb(223, 203, 203);
+    font-size: 18px;
+    font-weight: 800px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.getStorage{
+    text-decoration: none;
+    color: rgb(198, 78, 78);
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fcf9f9;
+    border-radius: 20px;
+    padding: 6px 30px;
+    margin-bottom: 10px;
+}
+
+/* ............Main section start here................  */
+.main-section{
+    margin-left: 250px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #3f3b3b;
+    border-radius: 10px;
+    height: 500px;
+    overflow: auto; 
+}
+
+/* log out section */
+.log-out{
+    background-color: black;
+    width: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 10;
+    padding: 10px;
+}
